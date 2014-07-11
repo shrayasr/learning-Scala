@@ -16,10 +16,21 @@ object soomemath {
     loop(1, x)
   }
 
+  def fib(n: Integer): String = {
+    def fibIter(series: String, a:Integer, b:Integer): String = {
+      val c = a+b
+      val newSeries = series + " " + c
+      if (c>=n) series
+      else fibIter(newSeries, b, c)
+    }
+    fibIter("0 1",0,1)
+  }
+
   def main(args: Array[String]) {
     println(gcd(48,18))
     println(factorial(5))
     println(better_factorial(5))
+    println(fib(5))
   }
 
 }

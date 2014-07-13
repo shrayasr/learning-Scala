@@ -9,3 +9,4 @@
 * [Array Initialization](http://stackoverflow.com/questions/3881013/array-initializing-in-scala)
 * [Correct way to write constructors](http://www.scala-lang.org/old/node/1074.html)
 * [Good explanation of GCD](http://www.math.rutgers.edu/~greenfie/gs2004/euclid.html)
+* [String to list](http://stackoverflow.com/questions/5052042/how-to-split-strings-into-characters-in-scala)

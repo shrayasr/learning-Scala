@@ -37,10 +37,10 @@ object assignment1 {
     val string3 = ":-)"
     val string4 = "())("
 
-    print(balance(string1.toList))
-    print(balance(string2.toList))
-    print(balance(string3.toList))
-    print(balance(string4.toList))
+    println(balance(string1.toList))
+    println(balance(string2.toList))
+    println(balance(string3.toList))
+    println(balance(string4.toList))
   }
 
 }

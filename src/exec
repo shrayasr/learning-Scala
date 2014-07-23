@@ -1,0 +1,8 @@
+#!/bin/bash
+
+prog=$1
+class=$(echo $prog | cut -d "." -f1)
+
+echo $prog $class
+
+scalac $prog && scala $class

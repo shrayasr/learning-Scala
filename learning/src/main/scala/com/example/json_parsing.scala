@@ -2,7 +2,6 @@ import org.json4s._
 import org.json4s.native.JsonMethods._
 
 case class User(username: String, profile_picture: String, id: String, full_name: String)
-case class UsersData(data: List[User])
 
 object json_parsing {
 
